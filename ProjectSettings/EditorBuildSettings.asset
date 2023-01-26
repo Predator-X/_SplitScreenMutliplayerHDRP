@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 15b3151a3dca3e849bbad64ab25dfcfb
   - enabled: 1
-    path: Assets/Scenes/PetrolStationScene.unity
-    guid: 6936bb290db261c45b8aa7699f9d7061
-  - enabled: 1
     path: Assets/Scenes/Scene1Gameplay.unity
     guid: 8c559dedc9f2d784b845408438be2a5e
+  - enabled: 1
+    path: Assets/Scenes/PetrolStationScene.unity
+    guid: 6936bb290db261c45b8aa7699f9d7061
   - enabled: 0
     path: Assets/Scenes/ProBuilderScene/Fun.unity
     guid: 33fe6c5abb3919140a13550f32917838

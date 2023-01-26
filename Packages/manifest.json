@@ -8,6 +8,8 @@
     "com.unity.inputsystem": "1.0.2",
     "com.unity.postprocessing": "3.2.1",
     "com.unity.probuilder": "5.0.6",
+    "com.unity.render-pipelines.high-definition": "11.0.0",
+    "com.unity.render-pipelines.high-definition-config": "file:../LocalPackages/com.unity.render-pipelines.high-definition-config",
     "com.unity.test-framework": "1.1.27",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.5.6",
