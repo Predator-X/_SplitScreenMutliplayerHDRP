@@ -1,2 +1,2 @@
-# _SplitScreenMutliplayerHDRP
- upgrating it to better graphisc  this projects gets more serious
+# SplitScreenGame
+Converting my project that I did for unity curse to split screen

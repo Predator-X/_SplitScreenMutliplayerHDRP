@@ -55,6 +55,11 @@ public class PauseMenu : MonoBehaviour
     //to Active CheckpointUI
     [SerializeField] private GameObject checkPointUI;
 
+
+    //for SplitScreen MainMenu
+    GameObject lookAt1, lookAt2;
+    GameObject backButtonGameObject, quitButtonGameObject;
+
     private void Awake()
     {
         //For Multiplayer and new input system. so it will not mix with other local players input 
@@ -67,7 +72,9 @@ public class PauseMenu : MonoBehaviour
     }
     private void Start()
     {     
-        GetEnemysFromScene();   
+        GetEnemysFromScene();
+    
+        
     }
 
   
@@ -414,6 +421,33 @@ public class PauseMenu : MonoBehaviour
 
     }
 
+   
+    public void SplitScreenMultiplayerManu()
+    {
+        //For SplitScreen Menu
+
+        lookAt1 = GameObject.Find("CinemachineLookAt");
+        quitButtonGameObject = GameObject.FindGameObjectWithTag("QuitButton").gameObject;
+
+        quitButtonGameObject.SetActive(false);
+        lookAt1.gameObject.SetActive(false);
+       //this.gameObject.transform.Find("StartButton").gameObject;
+                   
+        // backButtonGameObject = this.gameObject.transform.parent.GetChild(2).gameObject.transform.GetChild(6).gameObject;
+        backButtonGameObject = GameObject.FindGameObjectWithTag("BackButton").gameObject;
+
+    }
+
+    public void BackToMainMenuFromMultiplayer()
+    {
+        lookAt2 = GameObject.Find("CinemachineLookAt2");
+        lookAt2.gameObject.SetActive(false);
+        lookAt1.gameObject.SetActive(true);
+       // backButtonGameObject = GameObject.FindGameObjectWithTag("BackButton").gameObject;//this.gameObject.transform.Find("StartButton").gameObject;
+        backButtonGameObject.SetActive(false);
+
+        quitButtonGameObject.SetActive(true);
+    }
 
 
 }

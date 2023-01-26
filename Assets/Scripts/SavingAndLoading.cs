@@ -275,7 +275,8 @@ public class SavingAndLoading : MonoBehaviour
         mainPlayerManekin = GameObject.Find("MainPlayer");
         mainPlayerVariant = GameObject.FindGameObjectWithTag("Player");
         playerInputManager = GameObject.FindGameObjectWithTag("PlayerInputManager");
-        mainPlayerManekin.gameObject.SetActive(false);
+       
+       
        // mainPlayerVariant.gameObject.SetActive(true);
         playerInputManager.gameObject.SetActive(true);
         PlayerInputManager p = new PlayerInputManager();
@@ -285,6 +286,11 @@ public class SavingAndLoading : MonoBehaviour
         // numberOfPlayersText = GameObject.FindGameObjectWithTag("NumberOfPlayersCounterText");
   
             numberOfPlayersText.SetActive(true);
+
+        if (mainPlayerManekin != null)
+        {
+            mainPlayerManekin.gameObject.SetActive(false);
+        }
     }
     //-----------------------------------------------------
 
