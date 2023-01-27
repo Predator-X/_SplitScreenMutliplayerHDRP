@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_MatrixGridEffect
-  m_Shader: {fileID: -6465566751694194690, guid: c61b0a6522e66f842b35177530559eb3, type: 3}
+  m_Name: _MainBuildingMaterialMatrixGridEffect
+  m_Shader: {fileID: -6465566751694194690, guid: 185ccd7df8f2be643b179f51ead4e42c, type: 3}
   m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -39,7 +39,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Line_Thickness: 0.94
+    - Line_Thickness: 0.9
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
@@ -88,12 +88,12 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - GridCollor: {r: 0, g: 0.8, b: 1.4980392, a: 0}
+    - GridCollor: {r: 8.574187, g: 0, b: 7.0610957, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &7601277319729438457
+--- !u!114 &3763337217773748277
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
