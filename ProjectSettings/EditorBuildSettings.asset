@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 15b3151a3dca3e849bbad64ab25dfcfb
   - enabled: 1
+    path: Assets/Scenes/Caves.unity
+    guid: 4b0156e2fd3e6ed41a665116a0ef203f
+  - enabled: 1
     path: Assets/Scenes/SmallCity.unity
     guid: 66b660fb133a62f4fae276cf2780a9fc
   - enabled: 1
