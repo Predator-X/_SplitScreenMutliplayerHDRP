@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 323.39636, g: 833.68555, b: 1330.002, a: 1}
+  m_IndirectSpecularColor: {r: 323.46387, g: 833.9077, b: 1330.3008, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6419,7 +6419,7 @@ ReflectionProbe:
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
-  m_CustomBakedTexture: {fileID: 8900000, guid: 8c79ef372bcab5f4db8929aa9927b254, type: 3}
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1 &302091001
 GameObject:
   m_ObjectHideFlags: 0
@@ -6855,7 +6855,7 @@ ReflectionProbe:
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
-  m_CustomBakedTexture: {fileID: 8900000, guid: 0b1f93693d74c0c4d9c4a5d5f892d01f, type: 3}
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1001 &302214693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10401,7 +10401,7 @@ ReflectionProbe:
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
-  m_CustomBakedTexture: {fileID: 8900000, guid: 66d8f0a28d52f454b9d24d8d47fc12cd, type: 3}
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1001 &431060912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11925,7 +11925,7 @@ ReflectionProbe:
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
-  m_CustomBakedTexture: {fileID: 8900000, guid: af5cbea6da4fc1741a47db94265bd877, type: 3}
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!4 &476841672
 Transform:
   m_ObjectHideFlags: 0
@@ -18526,7 +18526,7 @@ ReflectionProbe:
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
-  m_CustomBakedTexture: {fileID: 8900000, guid: 9578690350d4e1248abe13512a704f92, type: 3}
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1 &732033454
 GameObject:
   m_ObjectHideFlags: 0
@@ -28083,13 +28083,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175768128}
-  m_LocalRotation: {x: 0, y: 0.87164193, z: 0, w: 0.49014324}
+  m_LocalRotation: {x: -0, y: 0.26662177, z: -0, w: 0.96380126}
   m_LocalPosition: {x: -9.566891, y: 40.724, z: 35.142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 121.3, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 30.927, z: 0}
 --- !u!1001 &1177128469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32464,7 +32464,7 @@ ReflectionProbe:
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
-  m_CustomBakedTexture: {fileID: 8900000, guid: ad43d62e8fda5614d845a18dfe850d31, type: 3}
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1001 &1345064817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43122,7 +43122,7 @@ ReflectionProbe:
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
-  m_CustomBakedTexture: {fileID: 8900000, guid: da8101600bcab8b41b75ea87a9de4c6d, type: 3}
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!4 &1549305984
 Transform:
   m_ObjectHideFlags: 0
@@ -56662,7 +56662,7 @@ ReflectionProbe:
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
   m_Importance: 1
-  m_CustomBakedTexture: {fileID: 8900000, guid: 62e8983bec91aa74d8849995fdc72077, type: 3}
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1001 &2125655324
 PrefabInstance:
   m_ObjectHideFlags: 0
