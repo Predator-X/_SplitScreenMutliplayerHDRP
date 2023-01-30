@@ -110,7 +110,7 @@ MonoBehaviour:
     supportTerrainHole: 0
     supportProbeVolume: 0
     supportRayTracing: 0
-    supportedRayTracingMode: 3
+    supportedRayTracingMode: 1
     probeVolumeSettings:
       atlasResolution: 128
       atlasOctahedralDepthResolution: 2048
@@ -214,7 +214,7 @@ MonoBehaviour:
       ChromaticAberrationMaxSamples: 03000000060000000c000000
     lightSettings:
       useContactShadow:
-        m_Values: 000001
+        m_Values: 000101
         m_SchemaId:
           m_Id: With3Levels
     maximumLODLevel:
