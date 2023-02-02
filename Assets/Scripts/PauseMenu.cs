@@ -358,7 +358,7 @@ public class PauseMenu : MonoBehaviour
 
         GameObject[] enemysInScene = SaveSystem.getEnemysOnStart; 
      
-        if (enemysInScene.Length == 0)
+        if (enemysInScene == null)
         {
             Debug.Log("There was no enemys to save ----- PauseMenu c# ");
 
