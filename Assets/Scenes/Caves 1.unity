@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 321.45227, g: 827.8198, b: 1320.916, a: 1}
+  m_IndirectSpecularColor: {r: 323.2622, g: 833.30273, b: 1329.5137, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20403,7 +20403,7 @@ MonoBehaviour:
     distanceFadeStart: 10000
     distanceFadeEnd: 10011.28
     textureIndex: 0
-    textureOffset: {x: -0, y: -0, z: 0}
+    textureOffset: {x: 0, y: 0, z: 0}
   m_Version: 2
 --- !u!4 &805209506
 Transform:
@@ -20689,11 +20689,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 273108590532727886, guid: 14525a52d6407eb43ab9188b947608e4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.86
+      value: 2.97
       objectReference: {fileID: 0}
     - target: {fileID: 273108590532727886, guid: 14525a52d6407eb43ab9188b947608e4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.21
+      value: 13.42
       objectReference: {fileID: 0}
     - target: {fileID: 273108590532727886, guid: 14525a52d6407eb43ab9188b947608e4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -41446,7 +41446,7 @@ MonoBehaviour:
     distanceFadeStart: 10000
     distanceFadeEnd: 10011.28
     textureIndex: 0
-    textureOffset: {x: -0, y: -0, z: 0}
+    textureOffset: {x: 0, y: 0, z: 0}
   m_Version: 2
 --- !u!4 &1505466777
 Transform:
